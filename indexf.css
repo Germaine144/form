@@ -1,0 +1,56 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+
+}
+.frm{
+   margin: 25px auto;
+   width: 70%;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   padding: 100px;
+   border: 1px solid #a58686;
+}
+input ,select{
+    padding: 20px 15px;
+    margin: 15px;
+    border-radius: 9px;
+    box-shadow: 7px 12px 5px -3px rgba(33, 33, 33, 0.64);
+    font-family: inherit;
+    outline: none;
+    border-color: green transparent;
+}
+.fld{
+   padding: 20px;
+}
+.choose{
+    padding: 10px;
+    margin: 15px;
+}
+.rd{
+    margin-right: 10px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sub{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;  
+}
+.sub:hover{
+    background-color: #4CAF50;
+    color: #fff;
+    transition: background-color 1s;
+}
